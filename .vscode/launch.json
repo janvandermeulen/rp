@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // This configuration launches the tff virtual environment located at ${workspaceFolder}/tff/tff
+            "name": "tff launcher",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "pythonPath": "${workspaceFolder}/tff/tff/bin/python",
+        }, 
+        {
+            // This configuration launches the flower virtual environment located at ${workspaceFolder}/flower/flower
+            "name": "flower launcher",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "pythonPath": "${workspaceFolder}/flower/flower/bin/python",
+        }
+    ]
+}
