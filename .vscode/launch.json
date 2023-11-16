@@ -10,7 +10,7 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "pythonPath": "${workspaceFolder}/tff/tff/bin/python",
+            "python": "${workspaceFolder}/tff/tff/bin/python",
         }, 
         {
             // This configuration launches the flower virtual environment located at ${workspaceFolder}/flower/flower
@@ -18,7 +18,7 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "pythonPath": "${workspaceFolder}/flower/flower/bin/python",
+            "python": "${workspaceFolder}/flower/flower/bin/python",
         }
     ]
 }

@@ -5,6 +5,7 @@ import tensorflow as tf
 model = tf.keras.applications.MobileNetV2((32, 32, 3), classes=10, weights=None)
 model.compile("adam", "sparse_categorical_crossentropy", metrics=["accuracy"])
 
+
 class CifarClient(fl.client.NumPyClient):
     def get_parameters(self, config):
         return model.get_weights()
